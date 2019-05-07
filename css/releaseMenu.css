@@ -1,0 +1,196 @@
+
+body{
+	background-color: rgb(244, 244, 244);
+}
+header [href="releaseMenu.html"]{
+	color: #EA8823;
+}
+.about-nav{
+	width: 100%;
+	min-width: 1200px;
+	position: absolute;
+	bottom: 0;
+	z-index: 8;
+}
+.navs{
+	width: 60%;
+	height: 50px;
+	margin: auto;
+ 	background-color: #EA7323;
+	display: flex;
+ }
+.navs .a-herf{
+	height: 50px;
+	line-height: 50px;
+}
+.navs .a-herf:last-child{
+	background-color: #EA8823;
+}
+.navs .a-herf a{
+	font-size: 1.1em;
+	padding: 0 20px;
+}
+/*----------分页样式------------*/
+section .page-number{
+	padding: 4em 0;
+	text-align: center;
+}
+section .page-number input{
+	border: 1px solid silver;
+	background-color: white;
+	height: 2.5em;
+	line-height: 2.5em;
+}
+section .page-number .page-btn{
+	width: 2.5em;
+	height: 2.5em;
+	line-height: 2.5em;
+}
+
+/*--------------section中心部分-------------------*/
+
+ section .section-center{
+	width: 100%;
+	min-width: 1200px;
+}
+
+
+/*---------网页中间主体CSS样式--------------*/
+
+section .section-center .content{
+	width: 60%;
+	margin:auto;
+	display: flex;
+	background-color: white;
+}
+section .section-center .content .content-left{
+	width: 60%;
+
+}
+section .section-center .content-left>div{
+	width: 90%;
+	margin:auto;
+}
+section .section-center .content-left .top-title{
+	display: flex;
+	align-items: flex-end;
+}
+section .section-center .content-left .top-title h3{
+	font-weight: bold;
+	margin-right: 20px;
+}
+section .section-center .content-left .menu-name{
+	display: flex;
+	justify-content: space-between;
+	margin:20px auto;
+}
+section .section-center .content-left .menu-name input{
+	width: 80%;
+}
+section .section-center .content-left .drop_area{
+	width: 100%;
+}
+section .section-center .content-left .cooking{
+	margin:20px auto;
+	display: flex;
+}
+section .section-center .content-left .cooking .dropdown{
+	margin-right:20px;
+}
+section .section-center .content-left .cooking .dropdown button{
+	padding: 10px 20px;
+	/*background-color: white;*/
+}
+section .section-center .content-left .story textarea{
+	width: 100%;
+	height: 100px;
+}
+section .section-center .content-left .menu-table{
+	display: flex;
+	background-color: #f4f4f4;
+	margin:20px auto;
+}
+section .section-center .content-left .ingredients,
+section .section-center .content-left .excipient{
+	width: 48%;
+	display: flex;
+	justify-content: space-around;
+}
+section .section-center .content-left .ingredients-name,
+section .section-center .content-left .excipient-name{
+	width: 60%;
+}
+section .section-center .content-left .ingredients-many,
+section .section-center .content-left .excipient-many{
+	width: 20%;
+}
+section .section-center .content-left .ingredients-many input,
+section .section-center .content-left .ingredients-name input,
+section .section-center .content-left .excipient-many input,
+section .section-center .content-left .excipient-name input{
+	margin:10px 0;
+	width: 100%;
+}
+section .section-center .content-left .step ul{
+	width: 100%;
+	padding: 0;//ul默认有padding 去掉之后就可以使Li占满元素
+
+}
+section .section-center .content-left .step ul li{
+	display: flex;
+	justify-content: space-between;
+	margin:20px 0;
+	list-style-type: none;
+	width: 100%;
+}
+
+section .section-center .content-left .step ul li .upload-word{
+	width: 40%;
+	border:1px solid gray;
+	display: flex;
+	flex-direction: column;
+
+}
+section .section-center .content-left .step ul li .upload-word>div{
+	width: 100%;
+	background-color: #e0e0e0;
+	text-align: center;
+
+}
+section .section-center .content-left .step ul li .upload-word>textarea{
+	width: 100%;
+	height: 90%;
+}
+section .section-center .content-left .notice input{
+	width: 100%;
+	height: 30px;
+	text-indent: 20px;
+}
+section .section-center .content-left .addLabel input{
+	width: 100%;
+	height: 30px;
+	text-indent: 20px;
+}
+section .section-center .content-left .label-many,.share{
+	 font-size: 2rem;
+}
+section .section-center .content-left .btn-group{
+	width: 60%;
+	margin: 30px auto;
+	display: flex;
+	justify-content: space-between;
+}
+section .section-center .content-left .btn-group .btn{
+	background-color: #f85621;
+	color:white;
+	padding: 10px 30px;
+}
+section .section-center .content-right{
+	width: 40%;
+}
+section .section-center .content-right .more>div{
+	text-align: center;
+}
+section .section-center .content-right .more>div img{
+	width: 100%;
+}

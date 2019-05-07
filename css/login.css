@@ -1,0 +1,166 @@
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	text-decoration: none;
+	color: #ccc;
+}
+/*--------------------header部分------------------------*/
+header{
+	color: white;
+	position: relative;
+	height: 800px;
+	/*背景图*/
+	background-image: url(../image/public/index-banner.png);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.header_box{
+	border-bottom: 5px solid white;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	min-width: 1200px;
+	z-index: 1;
+
+}
+header .header_box>.row{
+	min-width: 1200px;
+}
+header .header_box .pull-left{
+	padding:0 20px;
+}
+
+header .row{
+	height: 53px;
+	line-height: 53px;
+}
+
+header .logo img{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	top: -5px;
+}
+header .logo~div{
+
+}
+header .logo~div a{
+	font-size: 1.4em;
+	font-weight: bold;
+}
+header .search{
+	background-image: url('../image/public/搜索.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 20px 20px;
+	border: none;
+	width: 20px;
+	height: 20px;
+	background-color: transparent;
+	position: relative;
+	top: 5px;
+	outline: none;
+}
+
+
+/*---------------登陆页面---------------*/
+
+/*--------处于当前状态顶部按钮为红色*/
+header .header_box .pull-left .current-state{
+	color:#EA8823;
+}
+
+header .login{
+	width: 550px;
+	height: 300px;
+	background-color: #9e9e9d;
+	position: absolute;
+	top:40%;
+	left:37%;
+
+}
+header .login .row-left form{
+	display: inline-block;
+	text-align: center;
+}
+header .login .row-left .text-center{
+	font-size: 24px;
+}
+header .login .row-left .forgetpwd{
+	margin: auto;
+	font-size: 4px;
+	width: 210px;
+	height: 30px;
+	line-height: 30px;
+	/*border:1px solid red;*/
+	display: flex;
+	justify-content: space-between;
+}
+header .login .row-left .forgetpwd>div{
+	display: flex;
+	align-items: center;
+	/*border:1px solid green;*/
+}
+header .login .row-left .forgetpwd>div input{
+	position: relative;
+	top:-2px;
+
+}
+header .login .row-left [type="tel"]{
+	width: 210px;
+	height: 30px;
+}
+header .login .row-left [type="password"]{
+	width: 210px;
+	height: 30px;
+}
+header .login .row-left [type="text"]{
+	width: 105px;
+	height: 30px;
+}
+header .login .row-left .check-code{
+	color:white;
+	background-color: #333333;
+}
+
+header .login .row-left .login-btn{
+	width: 210px;
+	height: 30px;
+	background-color: #ea7323;
+}
+header .login .row-right{
+	color:#333;
+}
+header .login .row-right div:first-child{
+	font-size: 24px;
+	background-color: #7a7a75;
+}
+header .login .row-right div:nth-child(2){
+	margin:40px 0;
+}
+
+/*----------------------------------------------------------*/
+
+
+/*-----------------------footer部分-----------------------------*/
+footer{
+	height: 60px;
+	width: 100%;
+	color: white;
+	/*background-color: #11191b;*/
+	position:absolute;
+	top:730px;
+
+}
+
+footer .footer-box{
+	position: relative;
+	min-width: 1200px;
+}
+
+footer .footer-box p{
+	text-align: center;
+}

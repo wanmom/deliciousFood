@@ -1,0 +1,344 @@
+
+body{
+	background-color: rgb(244, 244, 244);
+}
+header [href="foodCircle.html"]{
+	color: #EA8823;
+}
+.about-nav{
+	width: 100%;
+	min-width: 1200px;
+	position: absolute;
+	bottom: 0;
+	z-index: 8;
+}
+.navs{
+	width: 60%;
+	height: 50px;
+	margin: auto;
+ 	background-color: #EA7323;
+	display: flex;
+ }
+.navs .a-herf{
+	height: 50px;
+	line-height: 50px;
+}
+.bgc{
+	background-color: #EA8823;
+	/*background-color: red;*/
+}
+.navs .a-herf a{
+	font-size: 1.1em;
+	padding: 0 20px;
+}
+
+
+/*--------------section中心部分-------------------*/
+
+section .section-center {
+	width: 100%;
+	min-width: 1200px;
+}
+section .section-center  .content{
+	width: 60%;
+	margin: 20px auto;
+	background-color: white;
+}
+
+
+/*---------发布页面样式--------------*/
+
+section .section-center  .content .content-top{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+section .section-center  .content-top h3{
+	width: 100%;
+	color:orange;
+	text-align: center;
+}
+section .section-center  .content-top .img{
+	width: 22%;
+	margin:10px 0;
+}
+section .section-center  .content-top .img img{
+	width: 100%;
+}
+section .section-center .content>div:last-child{
+	display: flex;
+	justify-content: space-around;
+}
+section .section-center .content-left h3{
+	color:orange;
+	text-indent: 2em;
+}
+section .section-center .content-left .res-ago{
+	padding: 0.7em 1em;
+	margin-bottom:0;
+	border:1px solid silver;
+	margin-top:2em;
+}
+section .section-center .content-left .res-ago span{
+	color: #EA7323;
+}
+section .section-center .content-left .res-food-img{
+	margin-top: 1em;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+section .section-center .content-left .res-food-img .food-img{
+	position: relative;
+	width: 29%;
+}
+section .section-center .content-left .res-food-img .food-img img{
+	width: 100%;
+}
+section .section-center .img-mask{
+	width: 100%;
+	height: 0;
+	overflow: hidden;
+	background-color: rgba(188, 188, 188, 0.6);
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	left: 0;
+	transition: all 0.8s;
+}
+
+section .section-center .content-right>h3{
+	color:orange;
+	text-indent: 2em;
+}
+section .section-center .content-right .res-want:first-child{
+	margin: 0;
+}
+section .section-center .content-right .res-want,.content-right .res-ago{
+	position: relative;
+	border: 1px solid silver;
+	padding: 1em 1em 4em 1em;
+	margin: 2em 0;
+}
+section .section-center .content-right .res-want p,.content-right .res-ago p{
+	text-align: left;
+}
+section .section-center .content-right .res-want p:first-child,.content-right .res-ago p:first-child{
+	font-size: 1.3em;
+	color: #EA7323;
+	font-weight: bold;
+}
+section .section-center .content-right .res-want img{
+	position: absolute;
+	bottom: 1em;
+	right: 1em;
+	width: 25%;
+}
+section .section-center .content-right .res-want .person-consume{
+	position: absolute;
+	top: -1px;
+	right: 1em;
+	background-color: #EA7323;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	width: 3em;
+}
+
+
+/*-----------晒一晒页面样式-------------*/
+
+section .section-center .content-left .share-content{
+	margin:2em 0;
+	display: flex;
+	justify-content: space-around;
+}
+section .section-center .content-left .share-content .share-time{
+	width: 20%;
+	text-align: center;
+	color:#333;
+	border:1px solid silver;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+
+}
+section .section-center .content-left .share-content .share-time span{
+	width: 100%;
+}
+section .section-center .content-left .share-content .share-time span:nth-child(2){
+	color:orange;
+	font-size: 2em;
+}
+section .section-center .content-left .share-content .share-img{
+	width: 70%;
+	display: flex;
+	justify-content: space-between;
+}
+section .section-center .content-left .share-content .share-img div:first-child{
+	width: 50%;
+	padding-right:10px;
+}
+section .section-center .content-left .share-content .share-img div:first-child img{
+	width: 100%;
+}
+section .section-center .comment{
+	width: 90%;
+	margin:auto;
+}
+section .section-center .comment h3{
+	text-indent: 0;
+}
+section .section-center .content-left .comment div:first-child textarea{
+	width: 94%;
+	height: 100px;
+}
+section .section-center .content-left .comment>div:first-child button{
+	background-color: #86bc42;
+	color:white;
+}
+section .section-center .content-left .comment>div{
+	margin:20px 0;
+}
+section .section-center .content-left  .comment div:not(:first-child) button{
+	color:orange;
+	background-color: transparent;
+}
+
+
+section .page-number{
+	padding: 4em 0;
+	text-align: center;
+}
+section .page-number input{
+	border: 1px solid silver;
+	background-color: white;
+	height: 2.5em;
+	line-height: 2.5em;
+}
+section .page-number .page-btn{
+	width: 2.5em;
+	height: 2.5em;
+	line-height: 2.5em;
+}
+
+
+section .section-center .content-diplay{
+	display: flex;
+	justify-content: space-around;
+}
+section .section-center .content-right .right-four>div:first-child{
+	display: flex;
+	justify-content: space-between;
+}
+section .section-center .content-right .right-four>div:last-child{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+section .section-center .content-right .right-four>div:last-child img{
+	width: 22%;
+	height:50px;
+	display: block;
+	margin:1em 0;
+}
+
+section .section-center .content-right .more{
+	width:90%;
+	margin-top: 0;
+}
+section .section-center .more .more-title{
+	display: flex;
+	justify-content:space-between;;
+	align-items: flex-end;
+}
+section .section-center .more .more-title a{
+	color:#333;
+	padding-right: 10px;
+}
+section .section-center .more .more-info{
+	text-align: center;
+}
+section .section-center .more .more-info img{
+	width: 100%;
+}
+
+
+/*-------------主题站页面样式----------------*/
+
+section .section-center .content-left .title{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	background-color: #e6e6e6;
+	align-items: center;
+}
+section .section-center .content-left .title h3{
+	color:#333;
+	padding: 0 10px;
+	text-indent: 0;
+}
+section .section-center .content-left .title a{
+	color:#ea7323;
+	padding: 0 10px;
+}
+section .section-center .content-left .rank{
+	display: flex;
+	justify-content: flex-start;
+
+}
+section .section-center .rank .rank-img{
+	width: 21em;
+	margin:1em 0;
+	position: relative;
+
+}
+section .section-center .rank .rank-img img{
+	width: 100%;
+}
+section .section-center .rank .rank-img div{
+	width: 60%;
+	border:1px solid silver;
+	background-color: white;
+	opacity: 0.5;
+	text-align: center;
+	position: absolute;
+	top:20%;
+	left:20%;
+}
+section .section-center .rank .rank-order ul{/
+	text-align: left;
+	height: 14em;
+	overflow-y: hidden;
+}
+section .section-center .rank .rank-order li{
+	list-style-type: none;
+	border-bottom:1px dotted gray;
+	margin:1em 0;
+	font-size: 6px;
+	line-height:2em;
+}
+section .section-center .rank .rank-order li b{
+	color:#333;
+	background-color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+section .section-center .rank .rank-order .select b{
+	color:white;
+	background-color: red;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+

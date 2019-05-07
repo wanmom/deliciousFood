@@ -1,0 +1,128 @@
+body{
+	background-color: rgb(244, 244, 244);
+}
+header [href="contact.html"]{
+	color: #EA8823;
+}
+.about-nav{
+	width: 100%;
+	min-width: 1200px;
+	position: absolute;
+	bottom: 0;
+	z-index: 8;
+}
+.navs{
+	width: 60%;
+	height: 50px;
+	margin: auto;
+ 	background-color: #EA7323;
+	display: flex;
+ }
+.navs .a-herf{
+	height: 50px;
+	line-height: 50px;
+}
+.navs .a-herf:nth-child(2){
+	background-color: #EA8823;
+}
+.navs .a-herf a{
+	font-size: 1.1em;
+	padding: 0 20px;
+}
+section{
+	width: 100%;
+	min-width: 1200px;
+}
+section .section-box{
+	background-color: white;
+	padding-top: 40px;
+	margin: auto;
+	width: 60%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+section .section-box .contact-img{
+	width: 100%;
+}
+section .section-box .contact-img img{
+	width: 100%;
+}
+section .section-box .font-box{
+	/* border: 1px solid black; */
+	width: 80%;
+}
+section .section-box .font-box h3{
+	padding-top: 30px;
+}
+section .section-box .font-box p{
+	color: rgb(102, 102, 102);
+}
+section .section-box form{
+	width: 80%;
+}
+section .section-box form table{
+	width: 100%;
+	border-collapse:separate;
+	border-spacing:0 30px;
+}
+section .section-box form table td{
+	vertical-align: top;
+}
+section .section-box form table tr:first-child td:first-child{
+	vertical-align: middle;
+}
+section .section-box form table td:first-child{
+	width: 12%;
+	font-weight: bold;
+}
+/* section .section-box form table tr{
+	
+} */
+section .section-box form table [type=email]{
+	width: 60%;
+	padding-left: 5px;
+}
+section .section-box form table textarea{
+	width: 100%;
+	border-radius: 5px;
+	resize: none;
+}
+section .section-box form table .sub-btn{
+	background-color: #EA7323;
+	border: none;
+	outline: none;
+	color: white;
+	font-size: 1.2em;
+	padding: 0.5em 2em;
+}
+section .past-info{
+	width: 80%;
+}
+section .past-info h3{
+	width: 100%;
+	padding:30px 0 10px 0;
+	border-bottom: 1px solid silver;
+}
+section .past-info .info{
+	border-bottom: 1px solid silver;
+	margin-bottom: 0.8em;
+}
+section .past-info .info p:last-child{
+	color: silver;
+}
+section .past-info .page-number{
+	padding: 4em 0;
+	text-align: center;
+}
+section .past-info .page-number input{
+	border: 1px solid silver;
+	background-color: white;
+	height: 2.5em;
+	line-height: 2.5em;
+}
+section .past-info .page-number .page-btn{
+	width: 2.5em;
+	height: 2.5em;
+	line-height: 2.5em;
+}

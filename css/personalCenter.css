@@ -1,0 +1,459 @@
+body{
+	background-color: rgb(244, 244, 244);
+}
+.about-nav{
+	width: 100%;
+	min-width: 1200px;
+	position: absolute;
+	bottom: 0;
+	z-index: 8;
+}
+.navs{
+	width: 60%;
+	height: 50px;
+	margin: auto;
+ 	background-color: #EA7323;
+	display: flex;
+ }
+.navs .a-herf{
+	height: 50px;
+	line-height: 50px;
+}
+.navs .a-herf:last-child{
+	background-color: #EA8823;
+}
+.navs .a-herf a{
+	font-size: 1.1em;
+	padding: 0 20px;
+}
+
+section{
+	width: 100%;
+	min-width: 1300px;
+}
+section .section-box{
+	background-color: white;
+	margin: auto;
+	width: 60%;
+	min-width: 766px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	/* border: 1px solid black; */
+}
+section .section-box .person-center{
+	width: 100%;
+	position: relative;
+}
+section .section-box .person-center img{
+	width: 100%
+}
+section .section-box .person-center .person-img{
+	position: absolute;
+/* 	width: 200px;
+	height: 200px; */
+	top: 50%;
+	/* margin-top: -100px; */
+	left: 50%;
+	/* margin-left: -100px; */
+	border-radius: 300px;
+	border: 10px solid white;
+	/* background-color: #fff; */
+}
+section .section-box .person-center .person-btn{
+	text-align: center;
+	position: absolute;
+	width: 100%;
+}
+section .section-box .person-center .person-btn input{
+	padding: 0.5em 1em;
+	margin:0 20px;
+}
+section .section-box .person-center .person-nav{
+	text-align: center;
+	position: absolute;
+	width: 60%;
+	min-width: 500px;
+}
+section .section-box .person-center .person-nav input{
+	border: none;
+	background-color: transparent;
+	padding: 0.6em 1.5em;
+	color: white;
+	font-weight: bold;
+	/* border-bottom: 2px solid white; */
+}
+section .section-box .personal-info{
+	width: 86%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+section .section-box .personal-info .public-nav{
+	width: 100%;
+}
+section .section-box .personal-info .publicInfo-box{
+	width: 56%;
+}
+section .section-box .personal-info .publicInfo-box-else{
+	width: 100%;
+}
+
+section .section-box .personal-info .publicInfo-box .caipu{
+	width: 100%	;
+	margin: 30px 0;
+}
+section .section-box .personal-info .publicInfo-box .caipu h3{
+	padding-bottom: 10px;
+	border-bottom: 1px solid silver;
+}
+section .section-box .personal-info .publicInfo-box .caimenu h3{
+	padding-bottom: 10px;
+	text-align: center;
+	border-bottom: 1px solid silver;
+}
+section .section-box .personal-info .publicInfo-box  img{
+	width: 96%;
+}
+section .section-box .personal-info .publicInfo-box  p{
+	width: 95%;
+	text-align: right;
+}
+section .section-box .personal-info .publicInfo-box  .caipu-info{
+	width: 96%;
+	text-align: left;
+	margin-bottom: 3em;
+}
+section .section-box .personal-info .push-mess{
+	width: 35%;
+	margin: 30px 0;
+	text-align: center;
+}
+section .section-box .personal-info .push-mess-else{
+	width: 0;
+	display: none;
+}
+section .section-box .personal-info .push-mess img{
+	width: 100%;
+} 
+section .section-box .personal-info .push-mess h4{
+	margin: 1.5em 0 0.4em 0;
+}
+section .section-box .personal-info .push-mess p{
+	color: silver;
+	margin-bottom: 3em;
+}
+section .page-number{
+	padding: 1em 0;
+	display: block;
+	text-align: right;
+}
+section .page-number-else{
+	display: none;
+	/* height: 0; */
+	overflow: hidden;
+}
+section .page-number input{
+	border: 1px solid silver;
+	background-color: white;
+	height: 2.5em;
+	line-height: 2.5em;
+}
+section .page-number .page-btn{
+	width: 2.5em;
+	height: 2.5em;
+	line-height: 2.5em;
+}
+
+.btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default{
+	background-color: transparent !important;
+}
+section .public-nav .dropdown{
+	width: 56%;
+	margin-top: 1em;
+	position: relative;
+}
+section .public-nav .dropdown button{
+	color: #EA8823;
+	font-size: 1.2em;
+	font-weight: bold;
+	background-color: transparent;
+}
+section .public-nav .dropdown button:hover{
+	background-color: #fff;
+}
+section .public-nav .dropdown button:active{
+	background-color: #fff;
+}
+section .public-nav .dropdown button:focus{
+	background-color: #fff;
+}
+section .public-nav .dropdown .add{
+	display: inline-block;
+	color: #EA8823;
+	font-size: 0.8em;
+	font-weight: bold;
+	position: absolute;
+	right: 0;
+	bottom: 0.2em;
+}
+section .public-nav .Diary-btn-box{
+	width: 70%;
+	padding: 1em 0 2em 0;
+	/* border: 1px solid black; */
+}
+section .public-nav .Diary-btn{
+	/* border: none; */
+	background-color: transparent;
+	color: black;
+	font-weight: bold;
+	margin-right: 1.2em;
+}
+
+section .publicInfo-box .diary-title{
+	overflow: hidden;
+	padding: 0.2em 0;
+	margin-bottom: 0.5em;
+	border-bottom: 1px solid silver;
+}
+section .publicInfo-box .diary-title .diary-name{
+	float: left;
+	font-size: 1.3em;
+	font-weight: bold;
+}
+section .publicInfo-box .diary-title .diary-time{
+	float: right;
+	font-size: 1.1em;
+	font-weight: bold;
+	margin-right: 2em;
+}
+
+section .publicInfo-box .Food-Diary .share-nav{
+	margin: 1.2em 0 1em 0;
+	width: 96%;
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+}
+section .publicInfo-box .Food-Diary .share-nav span{
+	width: 13%;
+	min-width: 3em;
+	font-size: 1.1em;
+	text-align: right
+}
+section .publicInfo-box .Food-Diary .share-nav [type="text"]{
+	width: 76%;
+
+}
+section .publicInfo-box .Food-Diary .share-nav [type="button"]{
+	color: white;
+	/* width: 4em; */
+	width: 11%;
+	height: 2.2em;
+	background-color: #EA7323;
+}
+section .publicInfo-box .res-box{
+	width: 96%;
+	/* border: 1px solid silver; */
+}
+section .publicInfo-box .res-box .res-want:first-child{
+	margin: 0;
+}
+section .publicInfo-box .res-box .res-want,section .publicInfo-box .res-box .res-ago{
+	/* width: 98%; */
+	position: relative;
+	border: 1px solid silver;
+	padding: 1em 1em 4em 1em;
+	margin: 2em 0;
+}
+section .publicInfo-box .res-box .res-want p,section .publicInfo-box .res-box .res-ago p{
+	text-align: left;
+}
+section .publicInfo-box .res-box .res-want p:first-child,section .publicInfo-box .res-box .res-ago p:first-child{
+	font-size: 1.3em;
+	color: #EA7323;
+	font-weight: bold;
+}
+section .publicInfo-box .res-box .res-want img{
+	position: absolute;
+	bottom: 1em;
+	right: 1em;
+	width: 25%;
+}
+section .publicInfo-box .res-box .res-want .person-consume{
+	position: absolute;
+	top: -1px;
+	right: 1em;
+	background-color: #EA7323;
+	color: white;
+	font-weight: bold;
+	text-align: center;
+	width: 3em;
+}
+section .publicInfo-box .res-box .res-ago{
+	padding: 0.7em 1em;
+	margin-bottom:0;
+}
+section .publicInfo-box .res-box .res-ago span{
+	color: #EA7323;
+}
+section .publicInfo-box .res-box .res-food-img{
+	margin-top: 1em;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+section .publicInfo-box .res-box .res-food-img .food-img{
+	position: relative;
+	width: 29%;
+}
+section .publicInfo-box .res-box .res-food-img .food-img img{
+	width: 100%;
+}
+section .img-mask{
+	width: 100%;
+	height: 0;
+	overflow: hidden;
+	background-color: rgba(188, 188, 188, 0.6);
+	/* text-align: center; */
+	position: absolute;
+	text-align: center;
+	bottom: 0;
+	left: 0;
+	transition: all 0.8s;
+}
+section .section-box .publicInfo-box .our-works-out{
+	width: 100%;
+}
+section .section-box .publicInfo-box .works-year{
+	color: #EA7323;
+	margin: 1.5em 0;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+section .publicInfo-box .our-works-box{
+	width: 100%;
+	/* border: 1px solid black; */
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+} 
+section .publicInfo-box .our-works-box .time{
+	width: 6%;
+	text-align: center;
+	/* border: 1px solid red; */
+}
+section .publicInfo-box .our-works-box .time .work-time{
+	width: 3em;
+	height: 2.8em;
+	background-color: #EA7323;
+	color: white;
+}
+section .publicInfo-box .our-works-box .time .work-time .day{
+	font-size: 1.2em;
+}
+section .publicInfo-box .our-works-box .works-img-info{
+	width: 94%;
+	/* border: 1px solid red; */
+}
+section .publicInfo-box .our-works-box .works-img-info .img-info-box{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+}
+section .publicInfo-box .our-works-box .img-info-box .info_box{
+	width: 30%;
+	position: relative;
+	margin: 0 1% 1em 1%;
+}
+section .publicInfo-box .our-works-box .img-info-box .info_box img{
+	width: 100%;
+}
+section .publicInfo-box .our-works-box .img-info-box .info_box .img-mask{
+	color: white;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+section .publicInfo-box .Collection-menu-box{
+	width: 100%;
+}
+section .publicInfo-box .Collection-menu-box h5{
+	color: #EA7323;
+	font-weight: bold;
+	font-size: 1.3em;
+	margin: 1.7em 0;
+	text-align: left;
+}
+section .publicInfo-box .Collection-menu-box .collection-Info{
+	width: 100%;
+	margin-bottom: 3em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+section .publicInfo-box .collection-Info .collection-img{
+	width: 38%;
+	position: relative;
+}
+section .publicInfo-box .collection-Info .collection-img img{
+	width: 100%
+}
+section .publicInfo-box .collection-Info .collection-img .img-mask{
+	color: white;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+section .publicInfo-box .collection-Info .collection-img-info{
+	width: 53%
+}
+section .publicInfo-box .collection-Info .collection-img-info h6{
+	font-size: 1.3em;
+	color: #EA7323;
+	font-weight: bold;
+	text-align: center;
+}
+section .publicInfo-box .Collection-menu-box .collection-Info .collection-img-info .repressent{
+	font-size: 1.2em;
+	text-align: left;
+}
+section .publicInfo-box .collection-Info .collection-img-info .author{
+	font-size: 1.2em;
+	text-align: right;
+	margin-right: 2em;
+}
+section .publicInfo-box .leaving-box{
+	width: 90%;
+	height: 800px;
+	overflow: visible;
+	position: relative;
+}
+section .publicInfo-box .user-header-img{
+	margin-top: 3em;
+	text-align: left;
+}
+section .section-box .personal-info .publicInfo-box .user-header-img img{
+	width: 8%;
+	border-radius: 500px;
+	border: 5px solid gray;
+}
+section .publicInfo-box .leaving-box form{
+	margin-top: 1em;
+	text-align: right;
+	width: 95%;
+	position: absolute;
+	right: 0;
+}
+section .publicInfo-box .leaving-box form textarea{
+	width: 100%;
+	resize: none;
+	border: 2px solid silver;
+	padding: 0.5em;
+	height: 15em;
+}
+section .publicInfo-box .leaving-box form input{
+	font-size: 1.3em;
+	color: white;
+	background-color: #EA7323;
+	padding: 0.3em 1.3em;
+}

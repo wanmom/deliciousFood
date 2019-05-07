@@ -1,0 +1,129 @@
+section{
+	min-width: 1200px;
+	background-color: rgb(255,255,255);
+}
+section p{
+	margin: 0;
+}
+section .shopping-banner{
+	width: 60%;
+	margin: auto;
+}
+section .shopping-banner img{
+	width: 100%;
+}
+section .confirm-info,section .con-money-info{
+	padding: 1em 2em;
+	width: 60%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+section .confirm-info .add-add-bun{
+	color: #EA7323;
+	border: none;
+	background-color: transparent;
+	outline: none;
+	font-size: 1.2em;
+	padding: 0;
+	margin: 0;
+}
+section .confirm-money-all{
+	color: red;
+}
+section .pay-info-box{
+	width: 60%;
+	padding: 1.5em;
+	margin: auto;
+	background-color: rgb(244, 244, 244);
+}
+section .pay-info-box .pay-title{
+	padding: 0.2em 0;
+	display: flex;
+	justify-content: space-between;
+}
+section .pay-info-box .pay-title .pay-title-font{
+	font-size: 1.8em;
+}
+section .pay-info-box .pay-title input{
+	border: none;
+	outline: none;
+	background-color: #EA7323;
+	color: white;
+}
+section .pay-info-box .bank-choose{
+	border: 1px solid silver;
+	margin: 0.2em 0;
+	width: 100%;
+	height: 3.5em;
+	line-height: 3.5em;
+}
+section .pay-info-box .bank-choose input{
+	margin: 0 0.5em;
+}
+section .pay-info-box .choose-pay{
+	padding: 1.5em 0;
+	margin: 0.2em 0;
+	width: 100%;
+}
+section .pay-info-box .choose-pay input{
+	background-color: #EA7323;
+	font-size: 1.3em;
+	color: white;
+	width: 4em;
+	text-align: center;
+	margin: 0 1em;
+}
+section .pay-info-box .choose-pay-card{
+	padding-bottom: 1.5em;
+	margin: 0.2em 0;
+	width: 100%;
+}
+section .pay-info-box .choose-pay-card input{
+	border: 1px solid silver;
+	background-color: white;
+	width: 15em;
+	font-size: 1.2em;
+	padding: 0.5em 0;
+	color: #63B8FF;
+	text-align: center;
+	margin-right: 2em;
+}
+section .pay-info-box .safe-info{
+	font-size: 1.3em;
+	padding-left: 0.5em;
+	padding-bottom: 1.5em;
+}
+section .pay-info-box .can-pay{
+	padding-left: 0.5em;
+}
+section .pay-info-box .can-pay p{
+	font-size: 1.8em;
+	margin-bottom: 0.5em;
+}
+section .pay-info-box .can-pay [type='password']{
+	padding: 0.5em 0.2em;
+	margin-right: 0.8em;
+}
+section .pay-info-box .can-pay a{
+	color: #63B8FF;
+}
+section .pay-info-box .can-pay .add-btn-pay{
+	margin-top: 0.5em;
+	font-size: 1.6em;
+	color: white;
+	background-color: #EA7323;
+	padding:0.2em 1em;
+}
+.modal-title {
+	text-align: left;
+}
+.modal-body p{
+	text-align: center;
+}
+.modal-body,.modal-footer{
+	text-align: center;
+}
+.modal-body{
+	text-align: center;
+}

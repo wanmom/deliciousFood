@@ -1,0 +1,155 @@
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	text-decoration: none;
+	color: #ccc;
+}
+/*--------------------header部分------------------------*/
+header{
+	color: white;
+	position: relative;
+	height: 800px;
+	/*背景图*/
+	background-image: url(../image/public/index-banner.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	/*min-width: 1200px;*/
+}
+
+.header_box{
+	border-bottom: 5px solid white;
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	min-width: 1200px;
+	z-index: 1;
+
+}
+header .header_box>.row{
+	min-width: 1200px;
+}
+header .header_box .pull-left{
+	padding:0 20px;
+}
+header .header_box .pull-left .login-btn{
+	color:red;
+}
+header .row{
+	height: 53px;
+	line-height: 53px;
+}
+
+header .logo img{
+	width: 40px;
+	height: 40px;
+	position: relative;
+	top: -5px;
+}
+header .logo~div{
+
+}
+header .logo~div a{
+	font-size: 1.4em;
+	font-weight: bold;
+}
+header .search{
+	background-image: url('../image/public/搜索.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 20px 20px;
+	border: none;
+	width: 20px;
+	height: 20px;
+	background-color: transparent;
+	position: relative;
+	top: 5px;
+	outline: none;
+}
+
+
+/*---------------忘记密码登陆页面---------------*/
+/*--------处于当前状态顶部按钮为红色*/
+
+header .forgetpwd-login{
+	width: 550px;
+	height: 300px;
+	background-color: #9e9e9d;
+	position: relative;
+	top:40%;
+	left:36%;
+
+}
+header .row-left .text-center{
+	font-size: 24px;
+}
+header .row-left form{
+	display: inline-block;
+	text-align: center;
+}
+header .row-left [type="tel"]{
+	display: block;
+	width: 210px;
+	height: 30px;
+}
+header .row-left [type="text"]{
+	width: 105px;
+	height: 30px;
+}
+header .row-left .check-code{
+
+	color:white;
+
+	background-color: #333333;
+}
+header .row-left .to-login{
+	margin:auto;
+	width: 210px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 10px;
+	text-align: right;
+	/*border:1px solid red;*/
+}
+header .row-left .login-btn{
+	width: 210px;
+	height: 30px;
+
+	background-color: #ea7323;
+}
+header .row-right{
+	color:#333;
+	position: relative;
+	top:60px;
+	left:0;
+	text-align: center;
+}
+header .row-right h5{
+	margin-top: 40px;
+}
+header  .current-state{
+	color:#EA8823;
+}
+/*----------------------------------------------------------*/
+
+
+/*-----------------------footer部分-----------------------------*/
+footer{
+	height: 60px;
+	width: 100%;
+	color: white;
+	/*background-color: #11191b;*/
+	position:absolute;
+	top:730px;
+
+}
+
+footer .footer-box{
+	position: relative;
+	min-width: 1200px;
+}
+
+footer .footer-box p{
+	text-align: center;
+}

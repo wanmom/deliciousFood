@@ -1,0 +1,70 @@
+body{
+	background-color: rgb(244, 244, 244);
+}
+header [href="about.html"]{
+	color: #EA8823;
+}
+.about-nav{
+	width: 100%;
+	min-width: 1200px;
+	position: absolute;
+	bottom: 0;
+	z-index: 8;
+}
+.navs{
+	width: 60%;
+	height: 50px;
+	margin: auto;
+ 	background-color: #EA7323;
+	display: flex;
+ }
+.navs .a-herf{
+	height: 50px;
+	line-height: 50px;
+}
+.navs .a-herf:first-child{
+	background-color: #EA8823;
+}
+.navs .a-herf a{
+	font-size: 1.1em;
+	padding: 0 20px;
+}
+/* 
+.navbar-default .navbar-brand:first-child{
+	background-color: #EA8823;
+} */
+section{
+	width: 100%;
+	min-width: 1200px;
+	padding-top: 50px;
+}
+section .find-food{
+	margin: auto;
+	width: 60%;
+	display: flex;
+	flex-wrap: wrap;
+}
+section .find-food .find-food-img{
+	width: 100%;
+}
+section .find-food .find-food-img img{
+	width: 100%;
+}
+section .find-food .find-food-font{
+	margin-top:2.5em;
+	width: 100%;
+	text-align: center;
+}
+section .find-food-img{
+	position: relative;
+}
+section .find-food-img .img-mask{
+	width: 100%;
+	height: 0;
+	text-align: center;
+	background-color: rgba(188, 188, 188, 0.6);
+	color: white;
+	position: absolute;
+	bottom: 0;
+	overflow: hidden;
+}

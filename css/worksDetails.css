@@ -1,0 +1,207 @@
+body{
+	/*background-color: rgb(244, 244, 244);*/
+	background-color: #f9f9f9;
+}
+.about-nav{
+	width: 100%;
+	min-width: 1200px;
+	position: absolute;
+	bottom: 0;
+	z-index: 8;
+}
+.navs{
+	width: 60%;
+	height: 50px;
+	margin: auto;
+ 	background-color: #EA7323;
+	display: flex;
+ }
+.navs .a-herf{
+	height: 50px;
+	line-height: 50px;
+}
+.bgc{
+	background-color: #EA8823;
+}
+.navs .a-herf a{
+	font-size: 1.1em;
+	padding: 0 20px;
+}
+
+section .page-number{
+	padding: 4em 0;
+	text-align: center;
+}
+section .page-number input{
+	border: 1px solid silver;
+	background-color: white;
+	height: 2.5em;
+	line-height: 2.5em;
+}
+section .page-number .page-btn{
+	width: 2.5em;
+	height: 2.5em;
+	line-height: 2.5em;
+}
+
+
+
+/*--------------section中心部分-------------------*/
+
+section .section-center{
+	width: 100%;
+	min-width: 1200px;
+}
+section .section-center .top{
+	width: 60%;
+	margin:20px auto;
+}
+section .section-center .top div:first-child{
+	display: flex;
+}
+section .section-center .top .top-left{
+	width: 60%;
+}
+section .section-center .top .top-left img{
+	width: 100%;
+}
+section .section-center .top .top-right{
+	flex-grow: 1;
+	/*border:1px solid red;*/
+
+}
+section .section-center .top .top-right>div{
+	width: 90%;
+	margin:auto;
+}
+
+section .section-center .top-right .right-one{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+section .section-center .top-right .right-one span{
+	color:orange;
+	font-size: 2em;
+}
+section .section-center .top-right .right-two{
+	padding: 10px 0;
+	border-bottom: 2px solid rgb(241, 241, 241);
+	border-top: 2px solid rgb(241, 241, 241);
+}
+section .section-center .top-right .right-three{
+	background-color: #e6e6e6;
+	padding: 10px 0;
+	text-align: center;
+}
+section .section-center .right-three .right-three-top div:first-child{
+	width: 30px;
+	height: 30px;
+}
+section .section-center .right-three .right-three-top div:first-child img{
+	width: 100%;
+}
+section .section-center .right-three .right-three-top>div:nth-child(2){
+	font-size: 0.5em;
+	width: 50%;
+	height: 40px;
+}
+section .section-center .right-three .right-three-top div:nth-child(2) span:first-child{
+	color:orange;
+	width: 100%;
+}
+section .section-center .right-three form{
+	margin:4px 0;
+
+}
+section .section-center .right-three form input{
+	margin:0px 30px;
+
+}
+section .section-center .right-four div:first-child{
+	display: flex;
+	justify-content: space-between;
+}
+section .section-center .right-four div:last-child{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+section .section-center .right-four div:last-child img{
+	display: block;
+	width: 60px;
+	height: 30px;
+}
+section .section-center .top-bottom{
+	margin:20px 0;
+	width: 60%;
+	display: flex;
+	justify-content: space-between;
+}
+section #share-3{
+	margin: 0.5em 0 2em 0.5em;
+}
+section .section-center .top-bottom div:last-child button{
+	margin:2em 0;
+	padding: 6px 30px;
+	background-color: #ea7323;
+	color:white;
+}
+section .section-center .top-bottom>div:first-child{
+	display: flex;
+	flex-wrap: wrap;
+}
+section .section-center .top-bottom .top-bottom-first>div:first-child{
+	margin:10px 0;
+	width: 80%;
+}
+section .section-center .top-bottom .top-bottom-first>div:first-child span:last-child{
+	color:orange;
+}
+section .section-center .content{
+	width: 60%;
+	margin:auto;
+	display: flex;
+}
+
+section .section-center .content-left{
+	width: 60%;
+	flex-grow: 0;
+
+}
+section .section-center .content-left div:first-child textarea{
+	width: 94%;
+	height: 100px;
+}
+section .section-center .content-left>div:first-child button{
+	background-color: #86bc42;
+	color:white;
+}
+section .section-center .content-left>div{
+	margin:20px 0;
+}
+section .section-center .content-left div:not(:first-child) button{
+	color:orange;
+	background-color: transparent;
+}
+section .section-center .content-right{
+	width: 40%;
+	text-align: center;
+}
+
+
+section .section-center .content{
+	width: 60%;
+	margin:auto;
+	display: flex;
+}
+section .section-center .content .content-left{
+	width: 70%;
+}
+section .section-center .content .content-right{
+	flex-grow: 1;
+}
+
+
+
+

@@ -1,0 +1,241 @@
+body{
+	background-color: rgb(244, 244, 244);
+}
+.about-nav{
+	width: 100%;
+	min-width: 1200px;
+	position: absolute;
+	bottom: 0;
+	z-index: 8;
+}
+.navs{
+	width: 60%;
+	height: 50px;
+	margin: auto;
+ 	background-color: #EA7323;
+	display: flex;
+ }
+.navs .a-herf{
+	height: 50px;
+	line-height: 50px;
+}
+.bgc{
+	background-color: #EA8823;
+}
+.navs .a-herf a{
+	font-size: 1.1em;
+	padding: 0 20px;
+}
+
+/*--------------section中心部分-------------------*/
+
+section .section-center {
+	width: 100%;
+	min-width: 1200px;
+}
+section .section-center .top{
+	width: 60%;
+	margin: 20px auto;
+	display: flex;
+	justify-content: center;
+}
+section .section-center .top-left{
+	width: 60%;
+	display: flex;
+}
+section .section-center .top-left img{
+	width: 100%;
+}
+section .section-center .top-right{
+	width: 40%;
+}
+section .section-center .top-right>div:not(:last-child){
+	margin:1em 1em;
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+}
+section .section-center .top-right div h6 span{
+	font-size: 2em;
+	color:orange;
+}
+section .section-center .top-right div:nth-child(2) form{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+section .section-center .top-right div:nth-child(2) form input:first-child{
+	background-color: orange;
+}
+section .section-center .top-right div:nth-child(2) form input:last-child{
+	color:white;
+	background-color: green;
+}
+section .section-center .top-right .table{
+	display: flex;
+	flex-wrap: wrap;
+}
+section .section-center .top-right .table div{
+	width: 50%;
+	padding: 0.5em 0;
+}
+section .section-center .top-right .table div:first-child::before{
+	content:'';
+	display: block;
+	width: 160%;
+	height: 1px;
+	background-color: silver;
+	opacity: 0.5;
+}
+section .section-center .top-right .table div:first-child::after{
+	content:'';
+	display: block;
+	width: 160%;
+	height: 1px;
+	background-color: silver;
+	opacity: 0.5;
+	position: relative;
+	top:0.5em;
+}
+section .section-center .top-right .table div:nth-child(2)::before{
+	content:'';
+	display: block;
+	width: 2px;
+	height: 4em;
+	background-color: silver;
+	opacity: 0.5;
+	position: relative;
+	top:4em;
+	left:-2em;
+}
+section .section-center .top-right .table div:nth-child(3)::after{
+	content:'';
+	display: block;
+	width: 160%;
+	height: 1px;
+	background-color: silver;
+	opacity: 0.5;
+}
+
+
+section .section-center .top-right div:last-child form{
+	width: 60%;
+	margin:auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+section .page-number{
+	padding: 4em 0;
+	text-align: center;
+}
+section .page-number input{
+	border: 1px solid silver;
+	background-color: white;
+	height: 2.5em;
+	line-height: 2.5em;
+}
+section .page-number .page-btn{
+	width: 2.5em;
+	height: 2.5em;
+	line-height: 2.5em;
+}
+
+
+/*---------网页中间主体CSS样式--------------*/
+
+section .section-center  .content{
+	width: 60%;
+	margin:auto;
+	display: flex;
+}
+section .section-center  .content .content-left{
+	width: 60%;
+}
+section .section-center .content-left div{
+	width: 90%;
+	margin:auto;
+}
+section .section-center .content-left div>table{
+	width: 100%;
+}
+section .section-center .content-left div>table th{
+	background-color:#dddddd;
+}
+section .section-center .content-left div:nth-child(2)>table,tr,td{
+	border:1px solid gray;
+
+}
+section .section-center .content-left>div:nth-child(2)>table tr td span:first-child{
+	float:left;
+}
+section .section-center .content-left>div:nth-child(2)>table tr td span:last-child{
+	float:right;
+	padding-right: 1em;
+}
+section .section-center .content-left>div:nth-child(3)>div{
+	padding: 20px 0;
+	margin:20px 0;
+	border-bottom: 1px dotted gray;
+}
+section .section-center .content-left>div:nth-child(3)>div{
+	display: flex;
+
+}
+section .section-center .content-left div:nth-child(3)>div>.content-left-number{
+	width: 50%;
+	text-align: center;
+
+}
+section .section-center .content-left div:nth-child(3)>div:not(.content-left-number) img{
+	width: 100%;
+
+}
+section .section-center .content-left .content-left-number span{
+	font-size: 2em;
+}
+section .section-center .content-left .content-left-number i{
+	font-weight: bold;
+
+}
+section .section-center .content-left>div:nth-child(4)>div:nth-child(3){
+	margin:10px auto;
+	padding: 20px 0;
+	border-bottom:1px dotted gray;
+	border-top:1px dotted gray;
+}
+section .section-center .content-left>div:nth-child(5) div:first-child{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+section .section-center .content-left>div:nth-child(5) div:first-child a{
+	color:black;
+}
+section .section-center .content-left>div:nth-child(5) div:last-child{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+section .section-center .content-left>div:nth-child(5) div:last-child textarea{
+	width: 100%;
+	height: 60px;
+}
+section .section-center .content-left>div:nth-child(5) div:last-child .btn{
+	margin: 20px 0;
+	background-color: green;
+	color:white;
+}
+section .section-center .content-left>div:last-child div button{
+	color:orange;
+	background-color: transparent;
+}
+section .section-center .content-right{
+	width: 40%;
+}
+section .section-center .content-right .more>div{
+	text-align: center;
+}
+section .section-center .content-right .more>div img{
+	width: 100%;
+}

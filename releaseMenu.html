@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>个人中心</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="swiper-4.5.0/dist/css/swiper.css">
+	<script src="swiper-4.5.0/dist/js//swiper.js"></script>
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="bootstrap/js/bootstrap.js"></script>
+	<script src="js/public.js"></script>
+	<link rel="stylesheet" href="css/public.css">
+	<script src="js/upload.js"></script>
+	<link rel="stylesheet" href="css/releaseMenu.css">
+	<script src="js/releaseMenu.js"></script>
+
+</head>
+<body>
+	<header>
+		<div class="swiper-container">
+		  <div class="swiper-wrapper">
+		    <div class="swiper-slide">
+		    	<img src="image/public/index-banner.png" alt="">
+		    </div>
+		    <div class="swiper-slide">
+		    	<img src="image/public/index-banner.png" alt="">
+		    </div>
+		    <div class="swiper-slide">
+		    	<img src="image/public/index-banner.png" alt="">
+		    </div>
+		    <div class="swiper-slide">
+		    	<img src="image/public/index-banner.png" alt="">
+		    </div>
+		    <div class="swiper-slide">
+		    	<img src="image/public/index-banner.png" alt="">
+		    </div>
+		  </div>
+		  <!-- Add Pagination -->
+		  <div class="swiper-pagination"></div>
+		</div>
+		<div class="container-fluid header_box">
+			<div class="row">
+				<div class="col-md-6 col-sm-6 col-xs-6">
+					<div class="row row-left">
+						<div class="pull-left logo">
+							  <img src="image/public/logo.png" alt="">
+						</div>
+						<div class="pull-left"><a href="menuSelection.html">菜谱分类</a></div>
+						<div class="pull-left"><a href="Purchases.html">购好货</a></div>
+						<div class="pull-left"><a href="foodCircle.html">美食圈</a></div>
+						<div class="pull-left"><a href="releaseMenu.html">发布</a></div>
+
+
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-6">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+							<div class="row pull-right">
+								<div class="pull-left">
+									<a href="login.html">登陆</a>
+									|
+									<a href="register.html">注册</a>
+								</div>
+								<div class="pull-left"><a href="about.html">关于豆果</a></div>
+								<div class="pull-left"><a href="contact.html">联系豆子</a></div>
+								<div class="pull-left">
+									<!-- <input type="text" name="" id="search"> -->
+									<button class='search'></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="about-nav">
+			<div class="navs">
+				<div class="a-herf"><a href="#">发布</a></div>
+				<!-- <div class="a-herf"><a href="#">作品</a></div>
+				<div class="a-herf"><a href="#">菜单</a></div>
+				<div class="a-herf"><a href="#">排行榜</a></div> -->
+			</div>
+		</div>
+	</header>
+<!-- 我是邪恶的分割线 -->
+	<section>
+			<div class="section-center">
+				<div class="content">
+					<div class="content-left">
+						<div class="top-title">
+							<h3>创建菜谱</h3>
+							<h6>从现在起不做孤独的美食家</h6>
+						</div>
+						<div class="menu-name">
+							<input type="text" placeholder="菜谱名称">
+							<button class="btn btn-default">原创</button>
+						</div>
+
+						<div class="upload">
+							<div class="drop_area"></div>
+						</div>
+
+
+						<div class="cooking">
+							<div class="dropdown">
+							  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    烹饪难度
+							    <span class="caret"></span>
+							  </button>
+							  <ul class="dropdown-menu">
+							    <li>初级</li>
+							    <li>中级</li>
+							    <li>高级</li>
+							  </ul>
+							</div>
+
+							<div class="dropdown">
+							  <button id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							    烹饪时间
+							    <span class="caret"></span>
+							  </button>
+							  <ul class="dropdown-menu">
+							    <li>10-20分钟</li>
+							    <li>20-30分钟</li>
+							    <li>30-40分钟</li>
+							  </ul>
+							</div>
+						</div>
+
+						<div class="story">
+							<textarea placeholder="这道菜背后的故事~（选填）"></textarea>
+						</div>
+						<div class="menu-table">
+							<div class="ingredients">
+								<div class="ingredients-name">
+									<h4>主料</h4>
+									<input type="text" placeholder="如：五花肉">
+									<input type="text">
+									<input type="text">
+									<input type="text">
+								</div>
+								<div class="ingredients-many">
+									<h4>用量</h4>
+									<input type="text">
+									<input type="text">
+									<input type="text">
+									<input type="text">
+								</div>
+							</div>
+
+							<div class="excipient">
+								<div class="excipient-name">
+									<h4>辅料</h4>
+									<input type="text" placeholder="如：五花肉">
+									<input type="text">
+									<input type="text">
+									<input type="text">
+								</div>
+								<div class="excipient-many">
+									<h4>用量</h4>
+									<input type="text">
+									<input type="text">
+									<input type="text">
+									<input type="text">
+								</div>
+							</div>
+						</div>
+
+						<div class="step">
+							<h3>步骤</h3>
+							<ul>
+								<li>
+									<div class="drop_area"></div>
+									<div class="upload-word">
+										<div>1</div>
+										<textarea></textarea>
+									</div>
+								</li>
+								<li>
+									<div class="drop_area"></div>
+									<div class="upload-word">
+										<div>2</div>
+										<textarea></textarea>
+									</div>
+								</li>
+								<li>
+									<div class="drop_area"></div>
+									<div class="upload-word">
+										<div>3</div>
+										<textarea></textarea>
+									</div>
+								</li>
+								<li>
+									<div class="drop_area"></div>
+									<div class="upload-word">
+										<div>3</div>
+										<textarea></textarea>
+									</div>
+								</li>
+							</ul>
+						</div>
+
+						<div class="notice">
+							<h3>小贴士</h3>
+							<input type="text" placeholder="选填">
+						</div>
+						<div class="addLabel">
+							<h4>添加标签（多个标签用空格隔开）</h4>
+							<input type="text" name="">
+						</div>
+						<br>
+						<div class="label-many">
+							常用标签：云南菜 锅贴 贫血 下奶骨质疏松 汉堡 内夹馍 排毒 养颜 凉面
+						</div>
+						<br>
+						<!-- <div class="share">
+							同步到：
+						</div> -->
+						<div class="btn-group">
+							<a href="createMenu.html" class="btn btn-default">发布</a>
+							<button class="btn btn-default">存草稿</button>
+						</div>
+
+					</div>
+					<div class="content-right"></div>
+				</div>
+			<div class="page-number">
+				<form>
+					<input type="button" value="1" class='page-btn'>
+					<input type="button" value="2" class='page-btn'>
+					<input type="button" value="3" class='page-btn'>
+					<input type="button" value="4" class='page-btn'>
+					<input type="button" value="&middot;&middot;&middot;" class='page-btn'>
+					<input type="button" value="下一页">
+					<input type="button" value="尾页">
+				</form>
+			</div>
+		</div>
+
+
+
+	</section>
+<!-- 我是邪恶的分割线 -->
+	<footer>
+		<div class="footer-box container">
+			<img class='dg-footer' src="image/public/dg-footer.png" alt="">
+			<div class="footer-img-box">
+				<img src="image/public/banner-footer.png" alt="" class="banner-footer">
+			</div>
+			<div class="row">
+				<div class="pull-left about-full">
+					<span>关于豆果</span>
+					<ul>
+						<li><a href="">公司简介</a></li>
+						<li><a href="">联系我们</a></li>
+						<li><a href="">意见反馈</a></li>
+					</ul>
+				</div>
+				<div class="pull-left more-full">
+					<span>更多合作,更多精彩</span>
+					<div>
+						<div class="pull-left">
+							<ul>
+								<li><a href="">公司简介</a></li>
+								<li><a href="">联系我们</a></li>
+								<li><a href="">意见反馈</a></li>
+							</ul>
+						</div>
+						<div class="pull-left">
+							<ul>
+								<li><a href="">公司简介</a></li>
+								<li><a href="">联系我们</a></li>
+								<li><a href="">意见反馈</a></li>
+							</ul>
+						</div>
+						<div class="pull-left">
+							<ul>
+								<li><a href="">公司简介</a></li>
+								<li><a href="">联系我们</a></li>
+								<li><a href="">意见反馈</a></li>
+							</ul>
+						</div>
+						<div class="pull-left">
+							<ul>
+								<li><a href="">公司简介</a></li>
+								<li><a href="">联系我们</a></li>
+								<li><a href="">意见反馈</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<p>
+				<a href="">关于豆果</a>
+				|
+				<a href="">联系豆子</a>
+				|
+				<a href="">意见反馈</a>
+				|
+				<a href="">友情链接</a>
+				|
+				<a href="">菜谱大全</a>
+			</p>
+			<p class='copy'>
+				2009-2017 北京豆果信息技术有限公司 京ICP证111032号 京公安网安备11010102001133号 京网文[2014]0774-174号 食品流通许可证SP1101061510252413
+			</p>
+		</div>
+	</footer>
+</body>
+<script type="text/javascript">
+	var dragImgUpload = new DragImgUpload(".drop_area",{
+	    callback:function (files) {
+	        //回调函数，可以传递给后台等等
+	        var file = files[0];
+	        console.log(file.name);
+	    }
+	})
+</script>
+</html>

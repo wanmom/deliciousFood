@@ -1,0 +1,110 @@
+body{
+	background-color: rgb(244, 244, 244);
+}
+.about-nav{
+	width: 100%;
+	min-width: 1200px;
+	position: absolute;
+	bottom: 0;
+	z-index: 8;
+}
+.navs{
+	width: 60%;
+	height: 50px;
+	margin: auto;
+ 	background-color: #EA7323;
+	display: flex;
+ }
+.navs .a-herf{
+	height: 50px;
+	line-height: 50px;
+}
+.navs .a-herf:last-child{
+	background-color: #EA8823;
+}
+.navs .a-herf a{
+	font-size: 1.1em;
+	padding: 0 20px;
+}
+section .page-number{
+	padding: 4em 0;
+	text-align: center;
+}
+section .page-number input{
+	border: 1px solid silver;
+	background-color: white;
+	height: 2.5em;
+	line-height: 2.5em;
+}
+section .page-number .page-btn{
+	width: 2.5em;
+	height: 2.5em;
+	line-height: 2.5em;
+}
+
+/*--------------section中心部分-------------------*/
+
+section .section-center {
+	width: 100%;
+	min-width: 1200px;
+}
+section .section-center  .content{
+	width: 60%;
+	margin:auto;
+	display: flex;
+}
+section .section-center  .content .content-left{
+	width: 60%;
+
+}
+section .section-center  .content-left .requried-content{
+	display: flex;
+	flex-wrap: wrap;
+}
+section .section-center  .content-left .requried-content input{
+	width: 80%;
+	margin: 20px 0;
+}
+section .section-center  .content-left .requried-content textarea{
+	width: 80%;
+	height: 100px;
+}
+
+section .section-center  .content-left .submit-content{
+	display: flex;
+}
+section .section-center  .content-left .submit-content input{
+	width: 60%;
+	margin: 10px 0;
+}
+section .section-center  .content-left .submit-content button{
+	color:white;
+	background-color: #f85621;
+	margin:auto;
+	margin: 10px 0;
+}
+
+
+
+/*----------更多推荐-------------*/
+section .section-center  .content-right{
+	width: 40%;
+}
+section .section-center  .content-right .more{
+	width:72%;
+}
+section .section-center  .more .more-title{
+	display: flex;
+	justify-content:space-between;;
+	align-items: flex-end;
+}
+section .section-center  .more .more-title a{
+	color:#333;
+	padding-right: 10px;
+}
+section .section-center  .more .more-info{
+	text-align: center;
+}
+section .section-center  .more .more-info img{
+	width: 100%;
+}

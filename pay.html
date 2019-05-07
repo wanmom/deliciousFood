@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>支付订单</title>
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" href="swiper-4.5.0/dist/css/swiper.css">
+	<script src="swiper-4.5.0/dist/js//swiper.js"></script>
+	<script src="js/jquery-3.3.1.js"></script>
+	<script src="bootstrap/js/bootstrap.js"></script>
+	<script src="js/public.js"></script>
+	<link rel="stylesheet" href="css/public.css">
+	<link rel="stylesheet" href="css/pay.css">
+	<script src="js/pay.js"></script>
+</head>
+<body>
+	<header>
+		<div class="swiper-container">
+		  <div class="swiper-wrapper">
+		    <div class="swiper-slide">
+		    	<img src="image/public/index-banner.png" alt="">
+		    </div>
+		    <div class="swiper-slide">
+		    	<img src="image/public/index-banner.png" alt="">
+		    </div>
+		    <div class="swiper-slide">
+		    	<img src="image/public/index-banner.png" alt="">
+		    </div>
+		    <div class="swiper-slide">
+		    	<img src="image/public/index-banner.png" alt="">
+		    </div>
+		    <div class="swiper-slide">
+		    	<img src="image/public/index-banner.png" alt="">
+		    </div>
+		  </div>
+		  <!-- Add Pagination -->
+		  <div class="swiper-pagination"></div>
+		</div>
+		<div class="container-fluid header_box">
+			<div class="row">
+				<div class="col-md-6 col-sm-6 col-xs-6">
+					<div class="row row-left">
+						<div class="pull-left logo">
+							  <img src="image/public/logo.png" alt="">
+						</div>
+						<div class="pull-left"><a href="menuSelection.html">菜谱分类</a></div>
+						<div class="pull-left"><a href="Purchases.html">购好货</a></div>
+						<div class="pull-left"><a href="foodCircle.html">美食圈</a></div>
+						<div class="pull-left"><a href="releaseMenu.html">发布</a></div>
+
+
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6 col-xs-6">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+							<div class="row pull-right">
+								<div class="pull-left">
+									<a href="login.html">登陆</a>
+									|
+									<a href="register">注册</a>
+								</div>
+								<div class="pull-left"><a href="about.html">关于豆果</a></div>
+								<div class="pull-left"><a href="contact.html">联系豆子</a></div>
+								<div class="pull-left">
+									<!-- <input type="text" name="" id="search"> -->
+									<button class='search'></button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+<!-- 我是邪恶的分割线 -->
+	<section>
+		<div class="shopping-banner">
+			<img src="image/confirmOrder/shoppingBanner.png" alt="">
+		</div>
+		<div class="agree-box">
+			<form action="">
+				<div class="address-agress">
+					<div class="add-agr-ban">
+						<p>确认收货地址</p>
+						<p class="manage-address" data-toggle="modal" data-target="#myModal">管理收货地址</p>
+						<!-- Modal -->
+						<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+						  <div class="modal-dialog" role="document">
+						    <div class="modal-content">
+						      <div class="modal-header">
+						        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						        <h4 class="modal-title" id="myModalLabel">新增收货地址</h4>
+						      </div>
+						      <div class="modal-body">
+						        <div class="address-inline">
+						          <div class="distpicker" data-toggle="distpicker">
+						              <span>地区选择：</span>
+						              <select class="" id="province1"></select>
+						              <select class="" id="city1"></select>
+						              <select class="" id="district1"></select>
+						          </div>
+						          <div class="minute-address">
+						          	<span>详细地址：</span>
+						          	<textarea name="" id="minu-add"></textarea>
+						          </div>
+						          <div class="consignee">
+						          	<span>收货人：</span>
+						          	<input type="text" name="" id="consignee-person">
+						          </div>
+						          <div class="consignee-phone">
+						          	<span>手机号码：</span>
+						          	<input type="text" name="" id="consignee-phone">
+						          </div>
+						        </div>
+						        <script src="js/distpicker.data.js"></script>
+						        <script src="js/distpicker.js"></script>
+						        <script src="js/main.js"></script>
+						      </div>
+						      <div class="modal-footer">
+						        <button type="button" class="btn btn-default" data-dismiss="modal">取消添加</button>
+						        <button type="button" class="btn btn-primary saveBtn">保存收货地址</button>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+					</div>
+					<div class="address-info">
+						<div>寄送至:</div>
+						<div class="address-info-li">
+							<p>1231</p>
+							<ul>
+								<!-- <li>
+									<input type="radio" name="" id="">
+									<p class="address"></p>
+								</li> -->
+							</ul>
+						</div>
+					</div>
+					<div class="oth-address">
+						<p>使用其它收货地址</p>
+					</div>
+					<div class="cauniao">
+						<input type="button" value="菜鸟驿站免费代收">
+					</div>
+					<table>
+						<tr>
+							<th>商品名称</th>
+							<th></th>
+							<th>单价</th>
+							<th>数量</th>
+							<th>金额</th>
+						</tr>
+						<tr>
+							<td class="shop-img">
+								<img src="image/purchases/pur-10.png" alt="">
+							</td>
+							<td class="shop-info">
+								好喝的鸡汤,不止是真的好喝,而且是特别的好喝,你他妈知道吗
+							</td>
+							<td class="shop-price">19999</td>
+							<td class="shop-sum">
+								<input type="button" value="-">
+								<input class="pur-nums" type="text" value="">
+								<input type="button" value="+">
+							</td>
+							<td class="shop-num">8888</td>
+						</tr>
+					</table>
+					<div class="leave-mess">
+						<span>给卖家留言:</span>
+						<textarea name="" id="" cols="30" rows="10"></textarea>
+					</div>
+					<div class="shop-calculation-box">
+						<div class="shop-price-calculation">
+							<div class="sum-calculation">
+								<p>
+									商品总价
+								</p>
+								<p class="calculation-info">
+									50
+								</p>
+							</div>
+							<div class="fregiht">
+								<p>
+									运&nbsp;&nbsp;&nbsp;&nbsp;费
+								</p>
+								<p class="fregiht-info">
+									卖家包邮
+								</p>
+							</div>
+							<div class="discount">
+								<p>优&nbsp;&nbsp;&nbsp;&nbsp;惠</p>
+								<p class="discount-info">
+									0.00
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="pay-money">
+						应付金额：
+						<span class="may-pay">50</span>
+						&nbsp;&nbsp;&nbsp;&nbsp;
+						<input class="pay" data-toggle="modal" data-target=".bs-example-modal-sm" type="button" value="支付">
+<!-- 						<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+						  <div class="modal-dialog modal-sm" role="document">
+						    <div class="modal-content">
+						    	<div class="modal-header">
+						    	  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+						    	  <h4 class="modal-title" id="myModalLabel">提示</h4>
+						    	</div>
+						    	<div class="modal-body">
+						    	 	<p>支付成功</p>
+						    	</div>
+						    	<div class="modal-footer">
+						    	  <button type="button" class="btn btn-warning pay-ok" data-dismiss="modal">关闭</button>
+						    	</div>
+						    </div>
+						  </div>
+						</div> -->
+					</div>
+				</div>
+			</form>
+		</div>
+	</section>
+<!-- 我是邪恶的分割线 -->
+	<footer>
+		<div class="footer-box container">
+			<img class='dg-footer' src="image/public/dg-footer.png" alt="">
+			<div class="footer-img-box">
+				<img src="image/public/banner-footer.png" alt="" class="banner-footer">
+			</div>
+			<div class="row">
+				<div class="pull-left about-full">
+					<span>关于豆果</span>
+					<ul>
+						<li><a href="">公司简介</a></li>
+						<li><a href="">联系我们</a></li>
+						<li><a href="">意见反馈</a></li>
+					</ul>
+				</div>
+				<div class="pull-left more-full">
+					<span>更多合作,更多精彩</span>
+					<div>
+						<div class="pull-left">
+							<ul>
+								<li><a href="">公司简介</a></li>
+								<li><a href="">联系我们</a></li>
+								<li><a href="">意见反馈</a></li>
+							</ul>
+						</div>
+						<div class="pull-left">
+							<ul>
+								<li><a href="">公司简介</a></li>
+								<li><a href="">联系我们</a></li>
+								<li><a href="">意见反馈</a></li>
+							</ul>
+						</div>
+						<div class="pull-left">
+							<ul>
+								<li><a href="">公司简介</a></li>
+								<li><a href="">联系我们</a></li>
+								<li><a href="">意见反馈</a></li>
+							</ul>
+						</div>
+						<div class="pull-left">
+							<ul>
+								<li><a href="">公司简介</a></li>
+								<li><a href="">联系我们</a></li>
+								<li><a href="">意见反馈</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<p>
+				<a href="">关于豆果</a>
+				|
+				<a href="">联系豆子</a>
+				|
+				<a href="">意见反馈</a>
+				|
+				<a href="">友情链接</a>
+				|
+				<a href="">菜谱大全</a>
+			</p>
+			<p class='copy'>
+				2009-2017 北京豆果信息技术有限公司 京ICP证111032号 京公安网安备11010102001133号 京网文[2014]0774-174号 食品流通许可证SP1101061510252413
+			</p>
+		</div>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,198 @@
+body{
+	/*background-color: rgb(244, 244, 244);*/
+	background-color: #f9f9f9;
+}
+.about-nav{
+	width: 100%;
+	min-width: 1200px;
+	position: absolute;
+	bottom: 0;
+	z-index: 8;
+}
+.navs{
+	width: 60%;
+	height: 50px;
+	margin: auto;
+ 	background-color: #EA7323;
+	display: flex;
+ }
+.navs .a-herf{
+	height: 50px;
+	line-height: 50px;
+}
+.bgc{
+	background-color: #EA8823;
+}
+.navs .a-herf a{
+	font-size: 1.1em;
+	padding: 0 20px;
+}
+
+section .page-number{
+	padding: 4em 0;
+	text-align: center;
+}
+section .page-number input{
+	border: 1px solid silver;
+	background-color: white;
+	height: 2.5em;
+	line-height: 2.5em;
+}
+section .page-number .page-btn{
+	width: 2.5em;
+	height: 2.5em;
+	line-height: 2.5em;
+}
+
+
+
+/*--------------section中心部分-------------------*/
+
+section .section-center{
+	width: 100%;
+	min-width: 1200px;
+}
+section .section-center .top{
+	width: 56%;
+	margin:20px auto;
+	display: flex;
+}
+section .section-center .top div:first-child{
+	border-bottom: 2px solid orange;
+}
+section .section-center .top div:last-child{
+	flex-grow: 1;
+	border-bottom: 2px solid gray;
+
+}
+
+section .section-center .content{
+	width: 56%;
+	margin:auto;
+	display: flex;
+}
+section .section-center .content .content-left{
+	width: 70%;
+	/*border:1px solid red;*/
+}
+section .section-center .content .content-left>div:first-child{
+	display: flex;
+	justify-content: space-between;
+	background-color: #e0e0e0;
+	border-radius: 5px;
+}
+section .section-center .content .content-left>div:first-child h4{
+	margin-left: 40px;
+}
+section .section-center .content .content-left>div:first-child div{
+	display: flex;
+	align-items: center;
+}
+section .section-center .content .content-left>div:first-child a{
+	color:orange;
+	margin-right: 20px;
+}
+section .section-center .content .content-left>div:nth-child(3){
+	display: flex;
+	justify-content: space-between;
+	background-color: #e0e0e0;
+	border-radius: 5px;
+}
+section .section-center .content .content-left>div:nth-child(3) h4{
+	margin-left: 40px;
+}
+section .section-center .content .content-left>div:nth-child(3) div{
+	display: flex;
+	align-items: center;
+}
+section .section-center .content .content-left>div:nth-child(3) a{
+	color:orange;
+	margin-right: 20px;
+}
+section .section-center .content .content-left>div:nth-child(5){
+	display: flex;
+	justify-content: space-between;
+	background-color: #e0e0e0;
+	border-radius: 5px;
+}
+section .section-center .content .content-left>div:nth-child(5) h4{
+	margin-left: 40px;
+}
+section .section-center .content .content-left>div:nth-child(5) div{
+	display: flex;
+	align-items: center;
+}
+section .section-center .content .content-left>div:nth-child(5) a{
+	color:orange;
+	margin-right: 20px;
+}
+
+section .section-center .content-left ul{
+	background-color: white;
+
+}
+section .section-center .content-left ul li{
+	width: 94%;
+	margin: auto;
+	list-style-type: none;
+	border-bottom: 1px dotted gray;
+	padding-top: 10px;
+}
+section .section-center .content-left ul li span{
+	float:right;
+
+}
+section .section-center .content-left ul li b{
+	color:#333;
+	text-align: center;
+	background-color: white;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+section .section-center .content-left ul .select b{
+	color:white;
+	background-color: red;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+section .section-center .content .content-right{
+	flex-grow: 1;
+}
+section .section-center .content-right div{
+	display: flex;
+	justify-content: center;
+}
+section .section-center .content-right  input{
+	background-color: #86bc42;
+	margin:20px 40%;
+	color:white;
+
+}
+section .section-center .content-right ul li{
+	list-style-type: none;
+	text-align: left;
+	padding: 10px 0;
+}
+section .section-center .content-right ul li a{
+	color:black;
+}
+section .section-center .content-right ul li a:hover{
+	text-decoration: none;
+}
+section .section-center .content-right ul li:first-child{
+	font-size: 1.5em;
+	font-weight: bold;
+}
+section .section-center .content-right ul li:first-child::before{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 2px;
+	border-bottom: 2px dotted gray;
+	position: relative;
+	top:-14px;
+}
+
+
+
+

@@ -1,0 +1,195 @@
+section{
+	min-width: 1200px;
+	background-color: rgb(255,255,255);
+}
+section p{
+	margin: 0;
+}
+section .shopping-banner{
+	width: 60%;
+	margin: auto;
+}
+section .shopping-banner img{
+	width: 100%;
+}
+section .agree-box{
+	width: 60%;
+	margin: auto;
+	margin-top: 2.5em;
+	background-color: rgb(244, 244, 244);
+	border: 1px solid silver;
+}
+section .agree-box .address-agress .add-agr-ban{
+	border-bottom: 1px solid silver;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.8em 1.0em;
+	background-color: white;
+	font-size: 1.4em;
+}
+section .agree-box .address-agress .address-info{
+	padding: 0.3em 1em;
+	border-bottom: 1px solid silver;
+	display: flex;
+	flex-wrap: nowrap;
+}
+section .agree-box .address-agress .address-info div:first-child{
+	font-size: 1.2em;
+	width:6em;
+	text-align: right;
+}
+section .agree-box .address-agress .address-info .address-info-li{
+	width: 100%;
+	padding-bottom: 1.5em;
+}
+section .agree-box .address-agress .address-info .address-info-li ul{
+	list-style: none;
+	padding:0;
+}
+section .agree-box .address-agress .address-info .address-info-li ul li{
+	display: flex;
+}
+section .agree-box .address-agress .address-info .address-info-li ul li .address{
+	padding-left: 0.5em;
+	width: 100%;
+	border-bottom: 1px dotted gray;
+}
+
+section .agree-box .address-agress .oth-address{
+	border-bottom: 1px solid silver;
+	display: flex;
+	justify-content: space-between;
+	padding: 0.8em 1.0em;
+	background-color: white;
+	font-size: 1.3em;
+	color: red;
+}
+section .agree-box .cauniao{
+	padding: 3em 1em 1em 1em;
+	height: 8em;
+}
+section .agree-box .cauniao input{
+	background-color: transparent;
+	border-bottom: 1px solid silver;
+}
+section .agree-box .address-agress table{
+	width: 100%;
+	border-collapse: collapse;
+	/* empty-cells: show; */
+	/* table-layout: fixed; */
+	
+}
+section .agree-box .address-agress table th,section .agree-box .address-agress table td{
+	text-align: center;
+	padding: 0.8em;
+}
+section .agree-box .address-agress table tr:first-child{
+	background-color: white;
+	border-top: 1px solid silver;
+}
+section .agree-box .address-agress table tr{
+	border-bottom: 1px solid silver;
+}
+section .agree-box .address-agress table .shop-img{
+	width: 12%;
+}
+section .agree-box .address-agress table .shop-img img{
+	width: 100%;
+}
+section .agree-box .address-agress table .shop-info{
+	width: 38%;
+	/* vertical-align: top; */
+}
+section .agree-box .address-agress table .shop-price{
+	width: 15%;
+	/* vertical-align: top; */
+}
+
+section .agree-box .address-agress .shop-sum  [type='text']{
+	text-align: center;
+	width: 2.5em;
+	border: none;
+	outline: none;
+	background-color: transparent;
+	border: 1px solid silver;
+	margin: 0;
+}
+section .agree-box .address-agress .shop-sum  [type='button']{
+	display: inline-block;
+	text-align: center;
+	width: 1.5em;
+	background-color: transparent;
+	border: 1px solid silver;
+	margin:0 -4px;
+}
+section .agree-box .address-agress .leave-mess{
+	padding-top: 2em;
+	padding-left: 0.8em;
+	display: flex;
+	align-items: flex-start;
+} 
+section .agree-box .address-agress .leave-mess span{
+	display: inline-block;
+	
+	font-size: 1.5em;
+	font-weight: bold;
+}
+section .agree-box .address-agress .leave-mess textarea{
+	resize: none;
+	height: 3em;
+	width: 15em;
+} 
+section .agree-box .address-agress .shop-price-calculation{
+	padding: 0 1.2em;
+	width: 30%;
+	/* margin-right: 0; */
+	float: right;
+	font-size: 1.2em;
+}
+section .agree-box .address-agress .shop-calculation-box{
+	overflow: hidden;
+}
+section .agree-box .address-agress .sum-calculation,section .agree-box .address-agress .fregiht,section .agree-box .address-agress .discount{
+	display: flex;
+	justify-content: space-between;
+}
+section .agree-box .address-agress .discount{
+	color: red;
+}
+section .agree-box .address-agress .pay-money{
+	text-align: right;
+	padding: 3em 1em;
+	font-size: 1.5em;
+}
+section .agree-box .address-agress .pay-money .may-pay{
+	color: red;
+}
+section .agree-box .address-agress .pay-money .pay{
+	background-color: #EA7323;
+	color: white;
+	padding: 0.2em 1.8em;
+}
+.modal-title {
+	text-align: left;
+}
+.pay-money .modal-body,.pay-money .modal-footer{
+	text-align: center;
+}
+.pay-money .modal-body{
+	text-align: center;
+}
+.distpicker{
+	display: flex;
+	flex-wrap: nowrap;
+}
+.minute-address,.consignee,.consignee-phone{
+	padding: 0.5em 0;
+	display: flex;
+	align-items: flex-start;
+}
+.minute-address span,.consignee span,.consignee-phone span{
+	width: 5em;
+}
+.modal-body .minute-address textarea{
+	resize: none;
+}

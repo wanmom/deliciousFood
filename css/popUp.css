@@ -1,0 +1,182 @@
+body{
+	background-color: rgb(244, 244, 244);
+}
+
+.about-nav{
+	width: 100%;
+	min-width: 1200px;
+	position: absolute;
+	bottom: 0;
+	z-index: 8;
+}
+.navs{
+	width: 60%;
+	height: 50px;
+	margin: auto;
+ 	background-color: #EA7323;
+	display: flex;
+ }
+.navs .a-herf{
+	height: 50px;
+	line-height: 50px;
+}
+.bgc{
+	background-color: #EA8823;
+}
+.navs .a-herf a{
+	font-size: 1.1em;
+	padding: 0 20px;
+}
+
+/*--------------section顶部导航-------------------*/
+/*.section-nav a{
+	color:white;
+	font-size: 14px;
+	font-weight: bold;
+}*/
+.section-nav{
+	width: 100%;
+	min-width: 1200px;
+}
+.nav-item{
+	width: 56%;
+	height: 100px;
+	margin:20px auto;
+	display: flex;
+	justify-content:space-between;
+}
+.nav-item .item{
+	width: 18%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	opacity: 0.8;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.nav-item .item1{
+	background-image: url(../image/menu/menu-01.png);
+}
+.nav-item .item2{
+	background-image: url(../image/menu/menu-02.png);
+}
+.nav-item .item3{
+	background-image: url(../image/menu/menu-03.png);
+}
+.nav-item .item4{
+	background-image: url(../image/menu/menu-04.png);
+}
+.nav-item .item5{
+	background-image: url(../image/menu/menu-05.png);
+}
+
+
+section .section-center  {
+	width: 100%;
+	min-width: 1200px;
+	position: relative;
+}
+section .section-center  .top a{
+	color:#333;
+}
+section .section-center  .top{
+	width:56%;
+	height: 40px;
+	margin:auto;
+	display: flex;
+}
+section .section-center  .top h4:first-child::after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 2px;
+	background:orange;
+}
+section .section-center  .top h4:last-child{
+	text-align: right;
+	flex-grow: 1;
+}
+section .section-center  .top h4:last-child::after{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 2px;
+	background:gray;
+}
+
+section .section-center  .picture{
+	width: 56%;
+	margin:auto;
+	display: flex;
+	justify-content: space-between;
+}
+section .section-center  .picture>div{
+	width: 30%;
+	position: relative;
+}
+section .section-center  .picture>div img{
+	width:100%;
+}
+section .section-center  .picture h4,.picture h6{
+	text-align: center;
+
+}
+
+
+/*-------弹窗样式-----------*/
+
+section .section-center  .dishes{
+	width: 56%;
+	margin:auto;
+	border:1px solid orange;
+	background-color:white;
+	opacity: 0.5;
+	text-align: center;
+	position: absolute;
+	top:0;
+	left:22%;
+}
+section .section-center   .show-pop{
+	display: none;
+}
+section .section-center   .dishes::after{
+	content: "";
+	display: block;
+	width: 0;
+	height: 0;
+	border-right: 10px solid transparent;
+	border-left: 10px solid transparent;
+	border-top:10px solid transparent;
+	border-bottom: 20px solid red;
+	position: relative;
+	top:-103px;
+	left:4em;
+}
+section .section-center  .dishes div{
+	display: flex;
+	justify-content: center;
+}
+section .section-center  .dishes div h6{
+	width: 14%;
+}
+section .section-center  .page-number{
+	padding: 4em 0;
+	text-align: center;
+}
+section .section-center  .page-number input{
+	border: 1px solid silver;
+	background-color: white;
+	height: 2.5em;
+	line-height: 2.5em;
+}
+section .section-center  .page-number .page-btn{
+	width: 2.5em;
+	height: 2.5em;
+	line-height: 2.5em;
+}

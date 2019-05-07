@@ -1,0 +1,193 @@
+{
+  	"user":[
+      {
+        "xiaokeai":{
+            "head_img":"image/personalCenter/xiaokeai.jpg",
+            "fansnum":"0",
+            "shoucan":"898545",
+            "notedate":[
+              {
+                "title":"海鲜汤",
+                "time":"2017.3.9",
+                "src":"image/personalCenter/riji/note_03.png",
+                "duanping":"汤很鲜很好喝，值得品尝。"
+              },
+              {
+                "title":"绿茶烤肉",
+                "time":"2017.3.9",
+                "src":"image/personalCenter/riji/note_06.png",
+                "duanping":"肉很嫩，有股淡淡的绿茶味，值得尝试哦。"
+              },
+              {
+                "title":"烤生蚝",
+                "time":"2017.3.9",
+                "src":"image/personalCenter/riji/note_08.png",
+                "duanping":"生蚝很新鲜，烤的生蚝味道更棒，真心推荐。"
+              }
+            ],
+            "gailan":[
+              {
+                "name_tile":"三汁焖鸡翅",
+                "src":"image/personalCenter/caipu/概览_03.gif",
+                "time":"2016.12.16",
+                "info":"很简单的一道懒人大餐哦~~只需要几个步骤就可以做出一道很美味的焖锅鸡翅了，绝不会比黄记煌的焖锅差！鸡翅也可以换成排骨、猪肉、牛肉、鱼虾等，配菜也可以换成各种你喜欢的蔬菜，不过我觉得焖出来的土豆红薯最好吃了，吃剩的汤汁都可以捞半碗饭哈哈哈。"
+              },
+              {
+                "name_tile":"红烧猪脚",
+                "src":"image/personalCenter/caipu/概览_06.gif",
+                "time":"2016.11.24",
+                "info":"天天吃排骨都吃腻了，我就想起买个猪脚来烧着吃，其实跟排骨的做法大同小异，味道真的是棒极了！我一次就成功的拿手菜，吃过的亲亲友无人不喜欢哈~~然后每次有客人到家做客我就必烧这个菜哈哈哈绝对的下饭菜……"
+              },
+              {
+                "name_tile":"老北京疙瘩汤",
+                "src":"image/personalCenter/caipu/概览_08.gif",
+                "time":"2016.10.06",
+                "info":"提起疙瘩汤，北方人对它再熟悉不过了，不光是熟悉，很少有人不喜欢喝。不同地方的人们，喝疙瘩汤的讲究也不同。有的人喜欢放点香菜，有的人喜欢放点香葱，还有喜欢放蒜泥的。不管放什么，总有一款适合你，但不变的是大家对疙瘩的态度。大多数人都喜欢吃疙瘩小点儿，稍微有点嚼劲的。我过两种疙瘩汤的做法，今天和大家分享其中一种好喝到停不下来。"
+              }
+            ],
+            "my_caidan":[
+              {
+                "title":"可以甩掉饭几条街的美味菠萝古老肉",
+                "src":"image/personalCenter/caidan/caidan_03.png",
+                "time":"2017.2.6",
+                "info":"菠萝古老肉也可以写作菠萝咕咾肉，或者菠萝咕噜肉。它是一道传统粤菜名菜。如何在家作 出甩掉饭几条街的味道？怎样可以让咕噜肉外脆里嫩，酥香可口？又是一碗什么比例的万能料汁让菜品抱汁完美？这里会一一揭晓。"
+              },
+              {
+                "title":"一食半刻 |蒜泥白肉",
+                "src":"image/personalCenter/caidan/caidan_06.png",
+                "time":"2017.1.26",
+                "info":"不吃肥肉的我，第一次接触肥肉便是这一道菜，肥肉吃上去居然是爽口的，搭着蒜吃的时候也将肥肉的腻给去掉了，不爱吃蒜的朋友估计就接受不了，其实吃完之后吃个口香糖也就没事了，简单好吃，大家快动手做起来吧。"
+              },
+              {
+                "title":"肉沫酱炒茄子",
+                "src":"image/personalCenter/caidan/caidan_08.png",
+                "time":"2017.1.2",
+                "info":"我们家肖姐【麻麻】不太喜欢吃茄子，所以那天一块去超市的时候我买她还嘀咕来着呢。然后她没有想到的是我做了几次都是一扫而光，以至后面每次家里来客人肖姐都提前把茄子给我切好泡好，每次做好发朋友圈总有人问我做法。所以这次就给做了，其实你们可以翻翻我以前的菜谱，有很多关于茄子的。"
+              }
+            ],
+            "restaurant":[
+              {
+                "name":"香天下火锅",
+                "explain":"味道很正宗的重庆老火锅，也是全国连锁，在广州的朋友们如果想尝试传统的重庆老火锅推荐去这家体验",
+                "address":"广州市天河区 体育东路13号2层（近邮政储蓄银行）",
+                "money":"&yen;100",
+                "image":["image/personalCenter/ago/xtx_01.jpg","image/personalCenter/ago/xtx_02.jpg","image/personalCenter/ago/xtx_03.jpg"]
+              },
+              {
+                "name":"金福源铁板烧",
+                "explain":"很棒的铁板烧，虽然价格贵了点，但真心值了，服务也很周到！推荐！",
+                "address":"北京市西城区 阜成门内大街甲92号（近国土资源部）",
+                "money":"&yen;97",
+                "image":["image/personalCenter/ago/balidao.jpg","image/personalCenter/ago/haixian.jpg","image/personalCenter/ago/peigen.jpg"]
+              },
+              {
+                "name":"香天下火锅",
+                "explain":"味道很正宗的重庆老火锅，也是全国连锁，在广州的朋友们如果想尝试传统的重庆老火锅推荐去这家体验",
+                "address":"广州市天河区 体育东路13号2层（近邮政储蓄银行）",
+                "money":"&yen;100",
+                "image":["image/personalCenter/ago/xtx_01.jpg","image/personalCenter/ago/xtx_02.jpg","image/personalCenter/ago/xtx_03.jpg"]
+              },
+              {
+                "name":"金福源铁板烧",
+                "explain":"很棒的铁板烧，虽然价格贵了点，但真心值了，服务也很周到！推荐！",
+                "address":"北京市西城区 阜成门内大街甲92号（近国土资源部）",
+                "money":"&yen;97",
+                "image":["image/personalCenter/ago/balidao.jpg","image/personalCenter/ago/haixian.jpg","image/personalCenter/ago/peigen.jpg"]
+              },
+              {
+                "name":"香天下火锅",
+                "explain":"味道很正宗的重庆老火锅，也是全国连锁，在广州的朋友们如果想尝试传统的重庆老火锅推荐去这家体验",
+                "address":"广州市天河区 体育东路13号2层（近邮政储蓄银行）",
+                "tel":"020-82501661 020-85201661",
+                "money":"&yen;100",
+                "image":["image/personalCenter/ago/xtx_01.jpg","image/personalCenter/ago/xtx_02.jpg","image/personalCenter/ago/xtx_03.jpg"]
+              }
+            ],
+            "restaurant_want":[
+              {
+                "name":"香天下火锅",
+                "address":"广州市天河区 体育东路13号2层（近邮政储蓄银行）",
+                "money":"&yen;97",
+                "tel":"020-82501661 020-85201661",
+                "caixi":"朋友聚餐",
+                "image":"image/personalCenter/res/restaurant_03.png"
+              },
+              {
+                "name":"速度披萨",
+                "address":"北京市朝阳区蓝色港湾（查看地图）",
+                "tel":"010-59056369",
+                "money":"&yen;100",
+                "caixi":"朋友聚餐",
+                "image":"image/personalCenter/res/restaurant_06.png" 
+              },
+              {
+                "name":"香天下火锅",
+                "address":"广州市天河区 体育东路13号2层（近邮政储蓄银行）",
+                "money":"&yen;97",
+                "tel":"020-82501661 020-85201661",
+                "caixi":"朋友聚餐",
+                "image":"image/personalCenter/res/restaurant_03.png"
+              },
+              {
+                "name":"速度披萨",
+                "address":"北京市朝阳区蓝色港湾（查看地图）",
+                "tel":"010-59056369",
+                "money":"&yen;100",
+                "caixi":"朋友聚餐",
+                "image":"image/personalCenter/res/restaurant_06.png" 
+              },
+              {
+                "name":"香天下火锅",
+                "address":"广州市天河区 体育东路13号2层（近邮政储蓄银行）",
+                "money":"&yen;97",
+                "tel":"020-82501661 020-85201661",
+                "caixi":"朋友聚餐",
+                "image":"image/personalCenter/res/restaurant_03.png"
+              },
+              {
+                "name":"速度披萨",
+                "address":"北京市朝阳区蓝色港湾（查看地图）",
+                "tel":"010-59056369",
+                "money":"&yen;100",
+                "caixi":"朋友聚餐",
+                "image":"image/personalCenter/res/restaurant_06.png" 
+              },
+              {
+                "name":"香天下火锅",
+                "address":"广州市天河区 体育东路13号2层（近邮政储蓄银行）",
+                "money":"&yen;97",
+                "tel":"020-82501661 020-85201661",
+                "caixi":"朋友聚餐",
+                "image":"image/personalCenter/res/restaurant_03.png"
+              },
+              {
+                "name":"速度披萨",
+                "address":"北京市朝阳区蓝色港湾（查看地图）",
+                "tel":"010-59056369",
+                "money":"&yen;100",
+                "caixi":"朋友聚餐",
+                "image":"image/personalCenter/res/restaurant_06.png"  
+              }
+            ],
+            "restaurant_like":[
+              {
+                "name":"香天下火锅",
+                "address":"广州市天河区 体育东路13号2层（近邮政储蓄银行）",
+                "tel":"020-82501661 020-85201661",
+                "caixi":"朋友聚餐",
+                "src":"",
+                "money":"&yen;100"
+              },
+              {
+                "name":"速度披萨",
+                "address":"北京市朝阳区蓝色港湾（查看地图）",
+                "tel":"010-59056369",
+                "caixi":"朋友聚餐",
+                "src":"",
+                "money":"&yen;97"
+              }
+            ] 
+        }
+      }
+    ]    
+}
