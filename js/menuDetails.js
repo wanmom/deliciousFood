@@ -12,6 +12,7 @@ $(function(){
 
 	$.ajax({
 		url:"http://127.0.0.1/deliciousFood/caipu.json",
+		dataType:'json',
 		success:function(data){
 			var src = data.caipu[0].little_src;
 			var title = data.caipu[0].title;

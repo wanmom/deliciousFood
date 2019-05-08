@@ -9,9 +9,10 @@ $(function(){
 			"backgroundColor":"#EA7323"
 		});
 	});
-	
+
 	$.ajax({
 		url:"http://127.0.0.1/deliciousFood/caipu.json",
+		dataType:'json',
 		success:function(data){
 			var src = data.caipu[0].little_src;
 			var title = data.caipu[0].title;
@@ -21,21 +22,21 @@ $(function(){
 			var shoucangshu = data.caipu[0].shoucangshu;
 			var shijishijian = data.caipu[0].shijishijian;
 			var peicainandu = data.caipu[0].peicainandu;
-			
+
 			var desc = data.caipu[0].desc;
 			var zhuliao = data.caipu[0].shicai.zhuliao;
 			var fuliao = data.caipu[0].shicai.fuliao;
 			var buzhou = data.caipu[0].buzhou;
 			var xiaotieshi = data.caipu[0].xiaotieshi;
 			var pinlun = data.caipu[4].pinlun;
-			
+
 			$(".content-right").html(`
 						<div class="more">
 							<div class="more-title">
 								<h3>更多推荐</h3>
 								<a href="">更多>></a>
 							</div>
-							
+
 						</div>`)
 				for(var i=0;i<3;i++){
 					$('.more').append(`
@@ -49,8 +50,8 @@ $(function(){
 		}
 	})
 
-	
 
 
-	
+
+
 })

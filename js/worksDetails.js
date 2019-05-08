@@ -9,10 +9,11 @@ $(function(){
 			"backgroundColor":"#EA7323"
 		});
 	});
-	
-	
+
+
 	$.ajax({
 		url:"http://127.0.0.1/deliciousFood/caipu.json",
+		dataType:'json',
 		success:function(data){
 			var src = data.caipu[0].little_src;
 			var title = data.caipu[0].title;
@@ -72,13 +73,13 @@ $(function(){
 											<span class="
 glyphicon glyphicon-triangle-left"></span>
 										</button>
-							
-										1/67 
+
+										1/67
 										<button>
 											<span class="
 glyphicon glyphicon-triangle-right"></span>
 										</button>
-												
+
 									</div>
 								</div>
 								<div>
@@ -96,7 +97,7 @@ glyphicon glyphicon-triangle-right"></span>
 								<span>${phone}</span>
 							</div>
 							<div id="share-3" data-sites="weibo, qq, qzone">分享到：</div>
-							
+
 						</div>
 						<div>
 							<button class="btn ">收藏</button>
@@ -106,11 +107,11 @@ glyphicon glyphicon-triangle-right"></span>
 			$(".content-left").html(`<div>
 							<h3>评论</h3>
 							<textarea>
-								
+
 							</textarea>
 							<button class="btn">评论</button>
 						</div>
-						
+
 						<div>
 							<div>${pinlun.youhu}（${pinlun.city}）${pinlun.shijian}<button>回复</button></div>
 							<h4>${pinlun.info}</h4>
@@ -150,12 +151,12 @@ glyphicon glyphicon-triangle-right"></span>
 								<h6>${name}</h6>
 							</div>
 						</div>`)
-			
+
 		}
 	})
 
-	
 
 
-	
+
+
 })

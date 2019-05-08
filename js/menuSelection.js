@@ -11,6 +11,7 @@ $(function(){
 	});
 	$.ajax({
 		url:"http://127.0.0.1/deliciousFood/user.json",
+		dataType:'json',
 		success:function(data){
 			var user = data.user[0].xiaokeai;
 			var my_caidan = user.my_caidan;
@@ -31,15 +32,15 @@ $(function(){
 			// 				<div class="pic-right"></div>\
 			// 			</div>');
 
-	
+
 			// center.append(box);
 			// center.append(box);
 
-			
+
 			var left = $(".pic-left");
 			var center = $(".pic-center");
 			var right = $(".pic-right");
-		
+
 			left.html('<img src="'+picf+'" alt="" />');
 			var title =$("<h4>美味的日本寿司</h4>\
 						<h6>深蓝小米粥</h6>");
@@ -54,11 +55,11 @@ $(function(){
 			var title =$("<h4>美味的日本寿司</h4>\
 						<h6>深蓝小米粥</h6>");
 			right.append(title);
-			
+
 
 		}
 	})
 
 
-	
+
 })

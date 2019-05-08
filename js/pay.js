@@ -14,7 +14,7 @@ $(function(){
 
 
 	for(var i = 0;i < localStorage.length;i++){
-		if(localStorage.key(i) != "num" && localStorage.key(i) != "mustmoney"){
+		if(localStorage.key(i).slice(0,4) == "addr"){
 			  var key = localStorage.key(i);
 			  var val = localStorage.getItem(key);
 			  var li = `<li>
@@ -48,7 +48,7 @@ $(function(){
 	
 
 	$('.saveBtn').click(function() {
-		var t = new Date().getTime();
+		var t = "addr" + new Date().getTime();
 		var address_info = $("#province1 option:selected").val() +"  " + $("#city1 option:selected").val() +"  " + $("#district1 option:selected").val()+'  '+$('#minu-add').val()+'  '+$('#consignee-person').val()+'  '+$('#consignee-phone').val()
 		console.log(address_info);
 		localStorage.setItem(t,address_info);

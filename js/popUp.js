@@ -11,6 +11,7 @@ $(function(){
 	});
 	$.ajax({
 		url:"http://127.0.0.1/deliciousFood/user.json",
+		dataType:'json',
 		success:function(data){
 			var user = data.user[0].xiaokeai;
 			var my_caidan = user.my_caidan;

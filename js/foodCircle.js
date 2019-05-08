@@ -18,6 +18,7 @@ $(function(){
 
 	$.ajax({
 		url:"http://127.0.0.1/deliciousFood/user.json",
+		dataType:'json',
 		success:function(data){
 			var user = data.user[0].xiaokeai
 			var header_img_src = user.head_img

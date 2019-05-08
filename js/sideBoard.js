@@ -9,10 +9,11 @@ $(function(){
 			"backgroundColor":"#EA7323"
 		});
 	});
-	
-	
+
+
 	$.ajax({
 		url:"http://127.0.0.1/deliciousFood/caipu.json",
+		dataType:'json',
 		success:function(data){
 			var src = data.caipu[0].little_src;
 			var name = data.caipu[0].title;
@@ -23,10 +24,10 @@ $(function(){
 			var peicainandu = data.caipu[0].peicainandu;
 			var autho_words = data.caipu[0].autho_words;
 
-			
+
 		}
 	})
-	
+
 	var num = $('.content-left ul b')//设置序号
 	for(var i=0;i<3;i++){
 		for(var j=1;j<11;j++){
@@ -34,11 +35,11 @@ $(function(){
 			num.eq(n-1).text(j);
 		}
 	}
-	
-	
-
-	
 
 
-	
+
+
+
+
+
 })
